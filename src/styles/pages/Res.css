@@ -1,0 +1,13 @@
+.Res{
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+    margin-top: 2.5rem;
+    overflow: scroll;
+}
+
+@media (max-width: 720px){
+    .Res{
+        flex-direction: column;
+    }
+}

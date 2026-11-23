@@ -1,0 +1,6 @@
+.Menu{
+    display: flex;
+    overflow: scroll;
+    gap: 1rem;
+    margin-top: 2.5rem;
+}

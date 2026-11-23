@@ -1,0 +1,39 @@
+nav{
+    background-color: black;
+    color: white;
+    width: 90%;
+    margin-top: 1.5rem;
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+h1 a{
+    text-decoration: none;
+    color: white;
+}
+
+#nav-links{
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    margin-right: 2rem;
+}
+
+#nav-links a{
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+    padding: .5rem 1.5rem;
+    border-radius: 1rem;
+}
+
+#nav-links a:hover{
+    background-color: yellow;
+    color: black;
+    transition: 0.3s ease-in-out;
+}

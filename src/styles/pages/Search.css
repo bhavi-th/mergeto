@@ -1,0 +1,25 @@
+.Search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+.search-bar{
+    position: relative;
+    display: flex;
+    width: 50%;
+}
+
+.search-input{
+    height: 3.5rem;
+    width: 100%;
+    font-size: 1.15rem;
+    margin: auto;
+    padding-inline: .5rem;
+}
+
+/* .search-bar img{
+    height: 2.5rem;
+} */
